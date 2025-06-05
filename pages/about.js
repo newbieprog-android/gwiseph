@@ -1,11 +1,15 @@
+import Head from 'next/head';
 import Link from 'next/link'; 
 import Logo from '@/components/Logo';
-import Seo from "@/components/seo";
-import { useRouter } from 'next/router';
+import Seo from "@/components/Seo";
+
 export default function About() {
-    const router = useRouter();
   return (
     <>    
+      <Head>
+        <title>About GwisePH – iPhone Price Comparison Tool</title>
+      </Head>
+
       <Seo
         title="About GwisePH – iPhone Price Comparison Tool"
         description="GwisePH helps Filipinos compare Apple gadget prices across premium resellers. No selling. No markup. Just price clarity."
@@ -28,7 +32,7 @@ export default function About() {
             GWisePH is a lightweight tool designed to help Filipinos compare Gadget prices across premium resellers — all in one place.
           </p>
           <p className="mb-4">
-            We’re not a store. We don’t sell anything. We simply track prices and make them easier to compare, so you can make the best decision based on real-time listings.
+            We are not a store. We do not sell anything. We simply track prices and make them easier to compare, so you can make the best decision based on real-time listings.
           </p>
           <p className="mb-4">
             Our goal is to reduce the hassle of price hunting and provide a clean, trustworthy, and unbiased experience — especially for tech buyers looking for transparency.

@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from 'next/link';
 import Image from 'next/image';
 import Logo from "@/components/Logo";
-import Seo from "@/components/seo";
+import Seo from "@/components/Seo";
 
 export default function ContactPage() {
   return (
@@ -62,15 +62,22 @@ export default function ContactPage() {
         </form>
 
         <p className="text-xs text-gray-400 mt-6">
-          Powered by <a href="https://formsubmit.co" target="_blank" className="underline">FormSubmit</a>.
-          No login or sign-up needed.
+          Powered by <a 
+  href="https://formsubmit.co" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="underline"
+>
+  FormSubmit
+</a>
+          . No login or sign-up needed.
         </p>
 
         <div className="text-center mt-8">
           <p className="text-gray-500 mb-2">
             Kahit virtual lang ang kape ☕, damang-dama sa puso, Salamat malaking impact💻❤️
           </p>
-          <a
+          <Link
             href="https://coff.ee/aureyosystems"
             target="_blank"
             rel="noopener noreferrer"
@@ -82,8 +89,9 @@ export default function ContactPage() {
               width={200}
               height={40}
               className="mx-auto"
+              priority
             />
-          </a>
+          </Link>
         </div>
       </main>
     </>

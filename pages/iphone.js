@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Logo from "@/components/Logo";
 import Image from "next/image";
 import { useRouter } from 'next/router';
-import Seo from "@/components/seo";
+import Seo from "@/components/Seo";
 import Link from 'next/link';
 import Head from 'next/head';
 
