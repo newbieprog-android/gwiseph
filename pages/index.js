@@ -1,13 +1,25 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Logo from "@/components/Logo";
+import Seo from '@/components/seo';
 
 export default function Home() {
   return (
-    <>
+    <><Seo
+    title="GwisePH – iPhone Price Comparison Tool"
+    description="Compare iPhone prices across premium retailers in the Philippines."
+    keywords="iPhone price PH, Apple reseller Philippines, compare iPhone models"
+  />
       <Head>
         <title>GwisePH – Smart Gadget Price Tracker</title>
-        <meta name="description" content="Compare Apple device prices from trusted Philippine resellers." />
+        <meta name="description" content="Track and compare gadget prices from premium PH retailers. Updated regularly for your smart buying decisions." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="GwisePH, iPhone price tracker, Apple Philippines, gadget prices, smart shopping" />
+        <meta property="og:title" content="GwisePH – Smart Apple Price Tracker" />
+        <meta property="og:description" content="Weekly comparison of Apple gadgets from official PH resellers." />
+        <meta property="og:image" content="/og-image.png" />
+        <meta property="og:url" content="https://gwiseph.vercel.app" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <main className="font-sans">
         <header className="flex justify-between items-center p-6 bg-white shadow-sm">
