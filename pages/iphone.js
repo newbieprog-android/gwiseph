@@ -87,7 +87,7 @@ const models = [
 	}
 ];
 
-export default function iPhonePage() {
+export default function IPhonePage() {
 	const router = useRouter();
 	const [selectedModel, setSelectedModel] = useState(null);
 	const [selectedColor, setSelectedColor] = useState('');
@@ -226,10 +226,13 @@ export default function iPhonePage() {
 
 							{/* RIGHT: Image */}
 							<div className="md:w-1/3 w-full flex justify-center">
-								<img
-									src={selectedModel.image}
-									alt={selectedModel.name}
-									className="h-64 object-contain"
+								<Image
+                                    src={selectedModel.image}
+                                    alt={selectedModel.name}
+                                     width={256}
+                                    height={256}
+                                    className="h-64 object-contain"
+                                    priority
 								/>
 							</div>
 						</div>
