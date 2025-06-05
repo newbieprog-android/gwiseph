@@ -17,7 +17,7 @@ export default function ContactPage() {
         <header className="flex justify-between items-center mb-6">
           <Logo />
           <nav className="space-x-6 text-sm">
-            <Link href="/" className="hover:text-blue-600">Home</Link>
+            
             <Link href="/iphone" className="hover:text-blue-600">iPhone</Link>
             <Link href="/about" className="hover:text-blue-600">About</Link>
           </nav>
@@ -37,7 +37,7 @@ export default function ContactPage() {
         </p>
 
         <form
-          action="https://formsubmit.co/aureyogroup@gmail.com"
+          action="https://formsubmit.co/086f72f9fd9ded18c8a9982780067614"
           method="POST"
           className="space-y-4"
         >
