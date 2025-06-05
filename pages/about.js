@@ -1,15 +1,10 @@
-import Head from 'next/head';
 import Link from 'next/link'; 
 import Logo from '@/components/Logo';
-import Seo from "@/components/Seo";
+import Seo from '@/components/Seo';
 
 export default function About() {
   return (
     <>    
-      <Head>
-        <title>About GwisePH – iPhone Price Comparison Tool</title>
-      </Head>
-
       <Seo
         title="About GwisePH – iPhone Price Comparison Tool"
         description="GwisePH helps Filipinos compare Apple gadget prices across premium resellers. No selling. No markup. Just price clarity."

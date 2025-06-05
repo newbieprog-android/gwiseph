@@ -1,5 +1,5 @@
 import { ExternalLink, Smartphone, Laptop, Watch, Headphones } from "lucide-react";
-
+import Seo from '../components/Seo'
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50">

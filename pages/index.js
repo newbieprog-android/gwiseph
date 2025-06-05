@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Logo from "@/components/Logo";
-import Seo from '@/components/Seo';
+import Seo from "@/components/Seo";
 import Image from 'next/image';
 
 export default function Home() {
