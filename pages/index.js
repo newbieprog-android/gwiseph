@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Logo from "@/components/Logo";
 import Seo from '@/components/Seo';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -52,7 +53,14 @@ export default function Home() {
                   </Link>
         </div>
           <div className="mt-6">
-            <img src="/iphonelineup.png" alt="iPhone 16" className="mx-auto w-128 h-auto" />
+            <Image
+              src="/iphonelineup.png"
+              alt="iPhone 16"
+              width={512}
+              height={256}
+              className="mx-auto"
+              priority
+            />
           </div>
         </section>
   
@@ -61,7 +69,14 @@ export default function Home() {
           <p className="text-gray-600 mb-6">Coming Soon.</p>
        
           <div className="mt-6">
-            <img src="/morepreview.png" alt="iPhone 16" className="mx-auto w-128 h-auto" />
+            <Image
+              src="/morepreview.png"
+              alt="More Products"
+              width={512}
+              height={256}
+              className="mx-auto"
+              priority
+            />
           </div>
         </section>
 

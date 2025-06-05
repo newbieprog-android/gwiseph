@@ -27,7 +27,7 @@ export default function About() {
         </header>
 
         <section className="max-w-3xl mx-auto text-center p-6">
-          <h1 className="text-3xl font-bold mb-4">About GWisePH <span className="text-sm font-normal">"Gadget Wise PH"</span></h1>
+          <h1 className="text-3xl font-bold mb-4">About GWisePH <span className="text-sm font-normal">&ldquo;Gadget Wise PH&rdquo;</span></h1>
           <p className="mb-4 text-lg">
             GWisePH is a lightweight tool designed to help Filipinos compare Gadget prices across premium resellers — all in one place.
           </p>
